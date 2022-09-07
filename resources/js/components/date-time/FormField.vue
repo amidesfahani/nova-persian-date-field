@@ -33,7 +33,7 @@
         </span>
         <input
           type="text"
-          class="w-full form-control form-input form-input-bordered ltr-direction rtl-font-face pl-9"
+          class="w-full form-control form-input form-input-bordered ltr-direction rtl-font-face pl-10"
           :class="editable ? 'is-editable' : ''"
           v-model="value"
           :id="currentField.uniqueKey"
