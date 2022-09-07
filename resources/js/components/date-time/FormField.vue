@@ -14,7 +14,7 @@
             height="16px"
             viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg"
-            fill="#f9f9f9"
+            class="text-gray-500"
           >
             <path
               d="M436 160H12C5.4 160 0 154.6 0 148V112C0 85.5 21.5 64 48 64H96V12C96 5.4 101.4 0 108 0H148C154.6 0 160 5.4 160
@@ -33,7 +33,7 @@
         </span>
         <input
           type="text"
-          class="w-full form-control form-input form-input-bordered ltr-direction rtl-font-face"
+          class="w-full form-control form-input form-input-bordered ltr-direction rtl-font-face pl-9"
           :class="editable ? 'is-editable' : ''"
           v-model="value"
           :id="currentField.uniqueKey"
