@@ -1,0 +1,41 @@
+{
+    "name": "amidesfahani/nova-persian-date-field",
+    "description": "Laravel Nova Persian Datetime Picker",
+    "keywords": [
+        "laravel",
+        "nova",
+        "persian",
+        "shamsi",
+        "jalaali",
+        "moment",
+        "datepicker"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/nova": "^4.0"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./nova"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Amid\\Nova\\Fields\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amid\\Nova\\Fields\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
